@@ -1,7 +1,7 @@
 import '@/styles/globals.css'
 import { TodoProvider } from '../context/TodoContext'
 
-export default function App({ Component, pageProps }) {
+const App = ({ Component, pageProps }) => {
 
   return (
     <TodoProvider>
@@ -12,3 +12,4 @@ export default function App({ Component, pageProps }) {
 
   )
 }
+export default App;

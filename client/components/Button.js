@@ -1,7 +1,7 @@
 import { useContext } from "react"
 import { TodoContext } from "../context/TodoContext"
 
-const ConnectWalletButton = () => {
+const Button = () => {
   const{connectWallet} = useContext(TodoContext)
 
   return (
@@ -13,5 +13,5 @@ const ConnectWalletButton = () => {
     </button>
   )
 }
-export default ConnectWalletButton
+export default Button
 
